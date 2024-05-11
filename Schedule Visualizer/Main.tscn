@@ -1,0 +1,332 @@
+[gd_scene load_steps=36 format=3 uid="uid://c8j2vce4jirbf"]
+
+[ext_resource type="Texture2D" uid="uid://cji6wcycppe7d" path="res://Logos/nfl-league-logo.png" id="1_6vobk"]
+[ext_resource type="PackedScene" uid="uid://8s2iaptx6yte" path="res://Team.tscn" id="1_18fgy"]
+[ext_resource type="Script" path="res://Main.cs" id="1_li86k"]
+[ext_resource type="Texture2D" uid="uid://dio0uqs7du0st" path="res://Logos/nfl-buffalo-bills-team-logo.png" id="3_piq1v"]
+[ext_resource type="Texture2D" uid="uid://dyf2vu4tg0j3s" path="res://Logos/nfl-miami-dolphins-logo018.png" id="4_pxm7p"]
+[ext_resource type="Texture2D" uid="uid://cg7d7v620xwi2" path="res://Logos/nfl-new-york-jets-team-logo.png" id="5_0ohkr"]
+[ext_resource type="Texture2D" uid="uid://b7h7u3lfpqujp" path="res://Logos/nfl-new-england-patriots-team-logo.png" id="6_4mgs7"]
+[ext_resource type="Texture2D" uid="uid://cx6qk663pqbr" path="res://Logos/nfl-cincinnati-bengals-team-logo.png" id="7_ik36g"]
+[ext_resource type="Texture2D" uid="uid://cr4dx557rlqqc" path="res://Logos/nfl-cleveland-browns-team-logo.png" id="8_esilg"]
+[ext_resource type="Texture2D" uid="uid://bv0gaph4h5rm1" path="res://Logos/nfl-baltimore-ravens-team-logo.png" id="9_cjw2q"]
+[ext_resource type="Texture2D" uid="uid://bti2vmt6d6thn" path="res://Logos/nfl-pittsburgh-steelers-team-logo.png" id="10_33vod"]
+[ext_resource type="Texture2D" uid="uid://dfnuc8k465tel" path="res://Logos/nfl-indianapolis-colts-team-logo.png" id="11_kuhc0"]
+[ext_resource type="Texture2D" uid="uid://q0kyah1hdin5" path="res://Logos/nfl-jacksonville-jaguars-team-logo.png" id="12_3n1ni"]
+[ext_resource type="Texture2D" uid="uid://bw1njvdn3rgpa" path="res://Logos/nfl-houston-texans-team-logo.png" id="13_lxuq2"]
+[ext_resource type="Texture2D" uid="uid://gm0xvltks3mp" path="res://Logos/nfl-tennessee-titans-team-logo.png" id="14_guw0v"]
+[ext_resource type="Texture2D" uid="uid://dx7y3jls38xo2" path="res://Logos/nfl-denver-broncos-team-logo.png" id="15_sfpkc"]
+[ext_resource type="Texture2D" uid="uid://dfj5dfj4iyjpw" path="res://Logos/nfl-kansas-city-chiefs-team-logo.png" id="16_1i0io"]
+[ext_resource type="Texture2D" uid="uid://n6t2u7jfjpdc" path="res://Logos/nfl-los-angeles-chargers-team-logo.png" id="16_8d2t0"]
+[ext_resource type="Texture2D" uid="uid://d2pf86dcxu7qd" path="res://Logos/nfl-oakland-raiders-team-logo.png" id="18_11efj"]
+[ext_resource type="Texture2D" uid="uid://bv0ayyn8ca2jy" path="res://Logos/washington-football-team-logo.png" id="19_7ys5l"]
+[ext_resource type="Texture2D" uid="uid://cgdr2f2bmmmkj" path="res://Logos/nfl-dallas-cowboys-team-logo.png" id="20_sr751"]
+[ext_resource type="Texture2D" uid="uid://b0p2fqdd2ievg" path="res://Logos/nfl-new-york-giants-team-logo.png" id="21_q7rb6"]
+[ext_resource type="Texture2D" uid="uid://bdotr48556d2t" path="res://Logos/nfl-philadelphia-eagles-team-logo.png" id="22_4as3k"]
+[ext_resource type="Texture2D" uid="uid://ds10hj74qupti" path="res://Logos/nfl-chicago-bears-team-logo.png" id="23_v5ryp"]
+[ext_resource type="Texture2D" uid="uid://dxiqevkyeosn1" path="res://Logos/nfl-detroit-lions-team-logo.png" id="24_3ns67"]
+[ext_resource type="Texture2D" uid="uid://dt7ay3gb5xobh" path="res://Logos/nfl-green-bay-packers-team-logo.png" id="25_4oldq"]
+[ext_resource type="Texture2D" uid="uid://brvx27h0rpv5h" path="res://Logos/nfl-minnesota-vikings-team-logo.png" id="26_0mt0q"]
+[ext_resource type="Texture2D" uid="uid://c0qkcukhk1g1" path="res://Logos/nfl-tampa-bay-buccaneers-team-logo.png" id="27_iisy1"]
+[ext_resource type="Texture2D" uid="uid://f6oj8yhi3mtl" path="res://Logos/nfl-atlanta-falcons-team-logo.png" id="28_w4nhc"]
+[ext_resource type="Texture2D" uid="uid://baggt3h2yvcbv" path="res://Logos/nfl-carolina-panthers-team-logo.png" id="29_5qglk"]
+[ext_resource type="Texture2D" uid="uid://dx5ox3euk31qh" path="res://Logos/nfl-new-orleans-saints-team-logo.png" id="30_37oth"]
+[ext_resource type="Texture2D" uid="uid://dcs3anrm2u5yx" path="res://Logos/nfl-arizona-cardinals-team-logo.png" id="31_l1q1d"]
+[ext_resource type="Texture2D" uid="uid://cymsutucfb7pw" path="res://Logos/los-angeles-rams-logo.png" id="32_duplr"]
+[ext_resource type="Texture2D" uid="uid://c87hanjcyrtj" path="res://Logos/nfl-seattle-seahawks-team-logo.png" id="33_mikpl"]
+[ext_resource type="Texture2D" uid="uid://1tyjimiritg3" path="res://Logos/nfl-san-francisco-49ers-team-logo.png" id="34_2omoj"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_li86k")
+
+[node name="Nfl-league-logo" type="Sprite2D" parent="."]
+position = Vector2(96, 96)
+scale = Vector2(0.65, 0.636667)
+texture = ExtResource("1_6vobk")
+
+[node name="Bills" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(96, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("3_piq1v")
+TeamName = "Bills"
+
+[node name="Dolphins" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(208, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("4_pxm7p")
+TeamName = "Dolphins"
+
+[node name="Jets" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(320, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("5_0ohkr")
+TeamName = "Jets"
+
+[node name="Patriots" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(432, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("6_4mgs7")
+TeamName = "Patriots"
+
+[node name="Bengals" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(544, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("7_ik36g")
+TeamName = "Bengals"
+
+[node name="Browns" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(656, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("8_esilg")
+TeamName = "Browns"
+
+[node name="Ravens" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(768, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("9_cjw2q")
+TeamName = "Ravens"
+
+[node name="Steelers" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(880, 544)
+scale = Vector2(0.213334, 0.213333)
+texture = ExtResource("10_33vod")
+TeamName = "Steelers"
+
+[node name="Colts" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(992, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("11_kuhc0")
+TeamName = "Colts"
+
+[node name="Jaguars" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1104, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("12_3n1ni")
+TeamName = "Jaguars"
+
+[node name="Texans" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1216, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("13_lxuq2")
+TeamName = "Texans"
+
+[node name="Titans" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1328, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("14_guw0v")
+TeamName = "Titans"
+
+[node name="Broncos" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1439.75, 544)
+scale = Vector2(0.211667, 0.213333)
+texture = ExtResource("15_sfpkc")
+TeamName = "Broncos"
+
+[node name="Chargers" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1664, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("16_8d2t0")
+TeamName = "Chargers"
+
+[node name="Chiefs" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1552, 544)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("16_1i0io")
+TeamName = "Chiefs"
+
+[node name="Raiders" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1777, 544)
+scale = Vector2(0.206667, 0.213333)
+texture = ExtResource("18_11efj")
+TeamName = "Raiders"
+
+[node name="Commanders" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(96, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("19_7ys5l")
+TeamName = "Commanders"
+
+[node name="Cowboys" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(208, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("20_sr751")
+TeamName = "Cowboys"
+
+[node name="Giants" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(320, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("21_q7rb6")
+TeamName = "Giants"
+
+[node name="Eagles" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(432, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("22_4as3k")
+TeamName = "Eagles"
+
+[node name="Bears" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(544, 992)
+scale = Vector2(0.213334, 0.213333)
+texture = ExtResource("23_v5ryp")
+TeamName = "Bears"
+
+[node name="Lions" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(656, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("24_3ns67")
+TeamName = "Lions"
+
+[node name="Packers" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(768, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("25_4oldq")
+TeamName = "Packers"
+
+[node name="Vikings" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(880, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("26_0mt0q")
+TeamName = "Vikings"
+
+[node name="Buccaneers" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(992, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("27_iisy1")
+TeamName = "Buccaneers"
+
+[node name="Falcons" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1104, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("28_w4nhc")
+TeamName = "Falcons"
+
+[node name="Panthers" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1216, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("29_5qglk")
+TeamName = "Panthers"
+
+[node name="Saints" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1328, 992)
+scale = Vector2(0.213334, 0.213333)
+texture = ExtResource("30_37oth")
+TeamName = "Saints"
+
+[node name="Cardinals" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1440, 992)
+scale = Vector2(0.213334, 0.213333)
+texture = ExtResource("31_l1q1d")
+TeamName = "Cardinals"
+
+[node name="Rams" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1552, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("32_duplr")
+TeamName = "Rams"
+
+[node name="Seahawks" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1664, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("33_mikpl")
+TeamName = "Seahawks"
+
+[node name="49ers" parent="." instance=ExtResource("1_18fgy")]
+position = Vector2(1776, 992)
+scale = Vector2(0.213333, 0.213333)
+texture = ExtResource("34_2omoj")
+TeamName = "49ers"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 256.0
+offset_top = 64.0
+offset_right = 320.0
+offset_bottom = 128.0
+color = Color(0, 0, 1, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = -16.0
+offset_top = 80.0
+offset_right = 80.0
+offset_bottom = 106.0
+text = "Thursday"
+horizontal_alignment = 1
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 512.0
+offset_top = 64.0
+offset_right = 576.0
+offset_bottom = 128.0
+color = Color(1, 1, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect2"]
+layout_mode = 0
+offset_left = -32.0
+offset_top = 80.0
+offset_right = 96.0
+offset_bottom = 106.0
+text = "Sunday Morning"
+horizontal_alignment = 1
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+offset_left = 768.0
+offset_top = 64.0
+offset_right = 832.0
+offset_bottom = 128.0
+color = Color(1, 0.647059, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect3"]
+layout_mode = 0
+offset_left = -40.0
+offset_top = 80.0
+offset_right = 104.0
+offset_bottom = 106.0
+text = "Sunday Afternoon"
+horizontal_alignment = 1
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+offset_left = 1024.0
+offset_top = 64.0
+offset_right = 1088.0
+offset_bottom = 128.0
+color = Color(1, 0, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect4"]
+layout_mode = 0
+offset_left = -40.0
+offset_top = 80.0
+offset_right = 104.0
+offset_bottom = 106.0
+text = "Sunday Night"
+horizontal_alignment = 1
+
+[node name="ColorRect5" type="ColorRect" parent="."]
+offset_left = 1280.0
+offset_top = 64.0
+offset_right = 1344.0
+offset_bottom = 128.0
+color = Color(0, 1, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect5"]
+layout_mode = 0
+offset_top = 80.0
+offset_right = 64.0
+offset_bottom = 106.0
+text = "Monday"
+horizontal_alignment = 1
+
+[node name="ColorRect6" type="ColorRect" parent="."]
+offset_left = 1536.0
+offset_top = 64.0
+offset_right = 1600.0
+offset_bottom = 128.0
+color = Color(0.752941, 0.752941, 0.752941, 1)
+
+[node name="Label" type="Label" parent="ColorRect6"]
+layout_mode = 0
+offset_left = -32.0
+offset_top = 80.0
+offset_right = 96.0
+offset_bottom = 106.0
+text = "International"
+horizontal_alignment = 1
